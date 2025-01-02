@@ -15,7 +15,7 @@ module.exports = {
     historyApiFallback: true,
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx"],
+    extensions: [".ts", ".tsx", ".js", ".jsx", "json"],
   },
   module: {
     rules: [
@@ -34,7 +34,7 @@ module.exports = {
       template: path.resolve(__dirname, "public", "index.html"),
       favicon: path.resolve(__dirname, "public", "favicon.ico"),
       hash: true,
-      publicPath: "/",
+      publicPath: "/dom-tree-visualizer/",
     }),
   ],
 };
