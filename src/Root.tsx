@@ -17,7 +17,7 @@ export const theme = createTheme({
 function Root() {
   return (
     <StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/dom-tree-visualizer">
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <App />
