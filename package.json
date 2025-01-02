@@ -35,8 +35,11 @@
     "start": "webpack serve --config webpack.development.js",
     "build": "webpack --config webpack.production.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://moonwlsdnl.github.io/dom-tree-visualizer/",
   "eslintConfig": {
     "extends": [
       "react-app",
