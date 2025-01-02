@@ -16,7 +16,7 @@ module.exports = merge(common, {
         test: /\.(js|jsx|ts|tsx)$/i,
         loader: "babel-loader",
         options: {
-          configFile: path.resolve(__dirname, ".babelrc.json"),
+          configFile: path.resolve(__dirname, "babelrc.json"),
         },
         exclude: /node_modules/,
       },
