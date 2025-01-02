@@ -1,0 +1,20 @@
+.p-splitter-gutter {
+  width: 4px;
+  background-color: #ddd;
+}
+
+.p-splitter-gutter-handle {
+  background-color: #aaa;
+}
+
+.node__root > circle {
+  fill: #42a5f5;
+}
+
+.node__branch > circle {
+  fill: #90caf9;
+}
+
+.rd3t-leaf-node > circle {
+  fill: white;
+}
