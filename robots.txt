@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moonwlsdnl.github.io/dom-tree-visualizer/sitemap.xml
